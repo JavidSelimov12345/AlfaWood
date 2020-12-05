@@ -30,6 +30,12 @@
     
 }
 
-
+.header-style4-area .stick .main-menu-area ul li {
+    vertical-align: middle;
+    padding: 10px 7px;
+}
+.header-style4-area .main-header-area .main-menu-area ul li {
+    padding: 23px 9px;
+}
 
 
