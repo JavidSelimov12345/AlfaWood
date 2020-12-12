@@ -1326,7 +1326,7 @@ ul {
   color: #ffbe00;
 }
 .header-style4-area .main-header-area {
-  background-color: #000000;
+  background-color: #727273;;
 }
 .header-style4-area .main-header-area .logo-area {
   display: none;
@@ -1341,7 +1341,7 @@ ul {
   padding: 0;
 }
 .header-style4-area .main-header-area .my-search-style {
-  margin: 25px 20px 0 0;
+  margin: 15px 20px 0 0;
   width: 80%;
   float: left;
 }
@@ -1431,7 +1431,7 @@ ul {
   top: 66px;
 }
 .header-style4-area .stick {
-  background: rgba(0, 0, 0, 0.95);
+  background: #727273;
 }
 .header-style4-area .stick .my-search-style {
   margin: 15px 20px 0 0;
@@ -4382,8 +4382,8 @@ ul {
   color: #222222;
 }
 .projects-2-featured-area .isotop-classes-tab a:hover {
-  border: 1px solid #ffbe00;
-  background: #ffbe00;
+  border: 1px solid #727273;;
+  background: #727273;;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -4392,7 +4392,7 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .projects-2-featured-area .isotop-classes-tab .current {
-  background: #ffbe00;
+  background:#727273;
   color: #ffffff;
 }
 .projects-2-featured-area .featuredContainer > div {
@@ -4409,7 +4409,7 @@ ul {
   filter: alpha(opacity=50);
   opacity: 0;
   z-index: 1;
-  background-color: rgba(255, 190, 0, 0.8);
+  background-color:#727273;;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
