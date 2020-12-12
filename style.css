@@ -975,7 +975,7 @@ ul {
   color: #000000;
 }
 .main-header-area .main-menu-area nav ul li a:hover {
-  color: #ffbe00;
+  color: #727273 ;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -995,7 +995,7 @@ ul {
   transform-origin: 0 0 0;
   width: 180px;
   z-index: 99999;
-  background: #ffbe00;
+  background: #727273 ;
   padding: 0;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1006,7 +1006,7 @@ ul {
 .main-header-area .main-menu-area nav ul li ul > li {
   padding: 0;
   display: block;
-  border-bottom: 1px solid #eaaf04;
+  border-bottom: 1px solid #727273 ;
 }
 .main-header-area .main-menu-area nav ul li ul > li > a {
   padding: 10px;
@@ -1018,7 +1018,8 @@ ul {
 }
 .main-header-area .main-menu-area nav ul li ul > li:hover,
 .main-header-area .main-menu-area nav ul li ul > li .active {
-  background: #eaaf04;
+  background: #989898
+  ;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
