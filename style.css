@@ -872,7 +872,8 @@ ul {
 1.11 ScrollUp styles
 --------------------------------------*/
 #scrollUp {
-  background-color: rgba(255, 190, 0, 0.5);
+  background-color:#727273;
+  opacity:0.5;
   bottom: 100px;
   color: #ffffff !important;
   display: block;
@@ -893,7 +894,7 @@ ul {
 }
 #scrollUp:hover,
 #scrollUp:focus {
-  background-color: rgba(234, 175, 4, 0.8);
+  background-color: #727273;;
 }
 /*-------------------------------------
 1.12 Preloader styles
@@ -2748,8 +2749,8 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .about-4-area .about-4-left .about-4-tab-area ul li a:hover {
-  background: #ffbe00;
-  border: 1px solid #ffbe00;
+  background: #727273;;
+  border: 1px solid #727273;;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -2774,7 +2775,7 @@ ul {
   height: 0;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
-  border-top: 7px solid #ffbe00;
+  border-top: 7px solid #727273;;
   bottom: -7px;
   content: "";
   left: 0;
@@ -2793,8 +2794,8 @@ ul {
   opacity: 1;
 }
 .about-4-area .about-4-left .about-4-tab-area ul .active a {
-  background: #ffbe00;
-  border: 1px solid #ffbe00;
+  background: #727273;;
+  border: 1px solid #727273;;
   color: #ffffff;
 }
 .about-4-area .about-4-left .about-4-tab-area ul .active span:after {
