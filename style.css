@@ -5235,7 +5235,7 @@ ul {
 ---------------------------------------*/
 .brand-area {
   padding: 60px 0;
-  background: #ffbe00;
+  background: #989898;
 }
 .brand-area .brand {
   text-align: center;
@@ -5250,8 +5250,10 @@ ul {
   display: inline-block;
 }
 .brand-area .brand .brand-box:hover {
-  background: #000000;
-  border: 2px solid #000000;
+  background: #727273
+  ;
+  border: 2px solid #727273
+  ;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -5265,12 +5267,14 @@ ul {
   left: -45px;
   position: absolute;
   border-radius: 0;
-  background: #010101;
+  background: #727273
+  ;
   padding: 5px 12px;
   opacity: 1;
   margin: 2px;
   top: 30px;
-  border: 1px solid #010101;
+  border: 1px solid #727273
+  ;
 }
 @media (min-width: 480px) and (max-width: 768px) {
   .brand-area .brand .owl-controls .owl-prev {
@@ -5298,14 +5302,16 @@ ul {
   border: 1px solid #fff4d2;
 }
 .brand-area .brand .owl-controls .owl-next {
-  border: 1px solid #010101;
+  border: 1px solid #727273
+  ;
   top: 30px;
   right: -45px;
   position: absolute;
   margin: 2px;
   opacity: 1;
   border-radius: 0;
-  background: #010101;
+  background: #727273
+  ;
   padding: 5px 12px;
 }
 @media (min-width: 480px) and (max-width: 768px) {
