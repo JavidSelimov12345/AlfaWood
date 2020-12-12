@@ -958,7 +958,7 @@ ul {
   text-align: center;
 }
 .main-header-area .main-menu-area nav ul .active > a {
-  color: #ffbe00 !important;
+  color:rgb(206, 204, 204) !important;
 }
 .main-header-area .main-menu-area nav ul li {
   display: inline-block;
