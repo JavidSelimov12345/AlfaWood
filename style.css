@@ -4383,10 +4383,11 @@ ul {
   background: #ffffff;
   padding: 10px 30px;
   color: #222222;
+  margin: 5px;
 }
 .projects-2-featured-area .isotop-classes-tab a:hover {
-  border: 1px solid #727273;;
-  background: #727273;;
+  border: 1px solid #989898;
+  background: #989898;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
