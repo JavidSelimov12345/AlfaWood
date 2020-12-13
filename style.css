@@ -5759,7 +5759,7 @@ ul {
   text-align: center;
 }
 .footer-area-top .footer-social li a i {
-  color: #ffbe00;
+  color:  white;
 }
 .footer-area-top .footer-social li a:hover i {
   color: #ffffff;
@@ -5812,7 +5812,7 @@ ul {
   color: #b0b0b0;
 }
 .footer-area-top .corporate-address li i {
-  color: #ffbe00;
+  color: white;
   padding-right: 15px;
 }
 .footer-area-top .corporate-address li:last-child {
