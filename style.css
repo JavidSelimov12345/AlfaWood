@@ -5236,13 +5236,14 @@ ul {
 ---------------------------------------*/
 .brand-area {
   padding: 60px 0;
-  background: #989898;
+  /* background: #989898; */
 }
 .brand-area .brand {
   text-align: center;
 }
 .brand-area .brand .brand-box {
-  border: 2px solid #ffffff;
+  border: 2px solid #989898;
+  background: #989898;
   padding-top: 20px;
   height: 90px;
   margin: 0 auto;
@@ -5733,8 +5734,7 @@ ul {
 17. Footer Area styles 
 ========================================*/
 .footer-area-top {
-  background: #727273
-  ;
+  background: #3B3B3B;
 }
 .footer-area-top p {
   color: #b0b0b0;
