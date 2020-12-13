@@ -926,7 +926,7 @@ ul {
 }
 .header-top-area .header-top-left ul li i {
   padding-right: 15px;
-  color: #ffbe00;
+  color: white;
   font-size: 16px;
 }
 .header-top-area .header-top-left ul li a {
@@ -939,7 +939,7 @@ ul {
   display: inline-block;
 }
 .header-top-area .header-top-right ul li a {
-  color: #ffbe00;
+  color: white;
   margin-left: 15px;
   font-size: 16px;
 }
@@ -1368,7 +1368,7 @@ ul {
   background: transparent;
 }
 .header-style4-area .main-header-area .my-search-style .input-group-addon button i {
-  color: #ffbe00;
+  color: white;
 }
 .header-style4-area .main-header-area .cart-area > a > span {
   background: #ffffff;
