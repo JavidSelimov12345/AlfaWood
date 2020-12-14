@@ -291,11 +291,11 @@ ul {
 1.4 Button styles
 /*----------------------------------------*/
 .btn-read-more {
-  background: transparent;
+  background: #727273;
   padding: 14px 30px;
-  border: 2px solid #ffbe00;
+  border: 2px solid #727272;
   text-transform: uppercase;
-  color: #222222;
+  color: white;
   font-weight: 600;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -308,7 +308,7 @@ ul {
 }
 .btn-read-more:hover {
   color: #ffffff;
-  background: #ffbe00;
+  background: #727270;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
