@@ -5847,3 +5847,32 @@ ul {
 .footer-area-top p{
   text-align: justify;
 }
+
+
+.colorBox{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border:1px solid black;
+  margin:2px;
+}
+.metal1{
+  background-color: #727270;
+
+}
+.metal2{
+  background-color: #222222;
+}
+.metal3{
+  background-color: #292f33;
+}
+.metal4{
+  background-color:#010101;
+}
+.metal5{
+  background-color: #3B3B3B;
+}
+.metal6{
+  background-color: wheat;
+}
