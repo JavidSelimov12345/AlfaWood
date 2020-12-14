@@ -5839,3 +5839,11 @@ ul {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+
+.footer-area-top  h3 {
+  border-bottom: 1px solid white;
+} 
+.footer-area-top p{
+  text-align: justify;
+}
