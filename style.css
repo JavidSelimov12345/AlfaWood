@@ -5609,7 +5609,7 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .sidebar .popular-tags-box ul li a:hover {
-  background: #ffbe00;
+  background: #9e9e9c;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -5658,7 +5658,7 @@ ul {
   margin-right: 15px;
 }
 .sidebar .categories-box ul li a:hover {
-  color: #ffbe00;
+  color: #727270;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
