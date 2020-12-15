@@ -1272,8 +1272,14 @@ ul {
 2.2 Header 1 Area styles 
 ---------------------------------------*/
 .header-style1-area .header-top-area {
-  background: #222222;
+  background: #26466B;
 }
+
+.header-top-area {
+  background:#26466B;
+}
+
+
 /*-------------------------------------
 2.3 Header 2 Area styles 
 ---------------------------------------*/
@@ -5734,7 +5740,7 @@ ul {
 17. Footer Area styles 
 ========================================*/
 .footer-area-top {
-  background: #3B3B3B;
+  background: #26466B;
 }
 .footer-area-top p {
   color: #b0b0b0;
