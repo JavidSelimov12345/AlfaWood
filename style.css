@@ -5885,3 +5885,9 @@ ul {
 .zindex{
   z-index: 4;
 }
+
+@media only screen and (max-width: 600px) {
+  .nonedisplay{
+    display: none;
+  }
+}
