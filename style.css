@@ -468,7 +468,7 @@ ul {
 .btn-download {
   background: transparent;
   padding: 12px 30px;
-  border: 2px solid #ffbe00;
+  border: 2px solid#26466B;
   text-transform: capitalize;
   color: #000000;
   -webkit-transition: all 0.3s ease-in-out;
@@ -485,7 +485,7 @@ ul {
 }
 .btn-download:hover {
   color: #ffffff;
-  background: #eaaf04;
+  background: #26466B;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
