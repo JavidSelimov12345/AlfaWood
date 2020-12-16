@@ -4463,13 +4463,13 @@ ul {
   z-index: 10;
 }
 .projects-2-featured-area .featuredContainer .featured-box .overlay > a i {
-  color: #222222;
+  color: white;
   padding: 0 15px 15px;
 }
 .projects-2-featured-area .featuredContainer .featured-box .overlay > a:after {
-  border-color: transparent #ffffff;
+  border-color: transparent #26466B;
   border-style: solid;
-  border-width: 60px 60px 0 0;
+  border-width: 100px 100px 0 0;
   bottom: 4px;
   content: "";
   position: absolute;
@@ -4477,12 +4477,13 @@ ul {
   z-index: -1;
 }
 .projects-2-featured-area .featuredContainer .featured-box:hover .overlay {
-  opacity: 0.5;
+  opacity: 1;
   -webkit-transition: all 0.8s ease-out;
   -moz-transition: all 0.8s ease-out;
   -ms-transition: all 0.8s ease-out;
   -o-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
+  background-color: transparent;
 }
 .projects-2-featured-area .featuredContainer .featured-box a img {
   width: 100%;
