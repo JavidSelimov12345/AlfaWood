@@ -681,7 +681,7 @@ ul {
 .sidebar-search-title:after {
   content: "";
   position: absolute;
-  background: #ffbe00;
+  background: #727270;
   height: 3px;
   width: 50px;
   bottom: 0;
@@ -3899,7 +3899,7 @@ ul {
 .page-news-area .inner-page-news-area .inner-page-news-box .inner-news-box-top .news-published .news-date {
   padding: 12px 0 7px 0;
   line-height: 18px;
-  background: #ffbe00;
+  background: #26466B;
   font-size: 16px;
   font-weight: 600;
 }
@@ -5882,6 +5882,9 @@ ul {
 }
 .metal6{
   background-color: wheat;
+}
+.msbcolor{
+  background-color: #26466B;
 }
 .zindex{
   z-index: 4;
