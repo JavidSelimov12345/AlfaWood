@@ -5897,5 +5897,13 @@ ul {
   .img-responsive{
     width:100%;
   }
+  .shopBox2{
+    width:100%;
+    height: 300px;
+  }
+}
+.shopBox2{
+  /* width:200px; */
+  height: 300px;
 }
 
