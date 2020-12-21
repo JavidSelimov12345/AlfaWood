@@ -4476,9 +4476,10 @@ ul {
   padding: 0 15px 15px;
 }
 .projects-2-featured-area .featuredContainer .featured-box .overlay > a:after {
-  border-color: transparent #26466B;
+  border-color: transparent;
   border-style: solid;
-  border-width: 100px 100px 0 0;
+  border-width: 220px 300px 0 0;
+  
   bottom: 4px;
   content: "";
   position: absolute;
