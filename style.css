@@ -4042,7 +4042,7 @@ ul {
 }
 .page-news-details-area .page-news-details-content .comments-info li i {
   padding-right: 10px;
-  color: #ffbe00;
+  color: #26466B;
 }
 .page-news-details-area .page-news-details-content p span {
   position: relative;
@@ -4053,7 +4053,7 @@ ul {
 }
 .page-news-details-area .page-news-details-content p span:after {
   content: "";
-  background: #ffbe00;
+  background: #26466B;
   height: 76px;
   width: 2px;
   position: absolute;
