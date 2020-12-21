@@ -740,6 +740,7 @@ ul {
   width: 100%;
   top: 0;
   background: rgba(0, 0, 0, 0.6);
+ 
 }
 .header-bennar-area .header-bennar-left h2 {
   font-size: 48px;
@@ -2492,6 +2493,14 @@ ul {
 .about-area .about-right {
   position: relative;
 }
+
+.slider-4 .overlay{
+  opacity: 0.3;
+  z-index: -1;
+ 
+}
+
+
 .about-area .about-right .overlay {
   opacity: 0;
   content: "";
