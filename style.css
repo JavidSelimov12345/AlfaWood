@@ -102,55 +102,28 @@ End CSS INDEX
 /*----------------------------------------
 1.1 Imported styles
 /*----------------------------------------*/
+
+
+
 @font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: url(/fonts/MontserratAlternates-Regular.otf) format('truetype');
+  font-family: Myfont;
+  
+  src:  url(fonts/HelveticaNeue-Regular.otf);
 }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 500;
-  src: url(/fonts/MontserratAlternates-Regular.otf) format('truetype');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 600;
-  src: url(/fonts/MontserratAlternates-Regular.otf) format('truetype');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(/fonts/MontserratAlternates-Regular.otf) format('truetype');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(/fonts/MontserratAlternates-Regular.otf) format('truetype');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(/fonts/MontserratAlternates-Regular.otf) format('truetype');
-}
+
 /*----------------------------------------
 1.2 Typography styles
 /*----------------------------------------*/
 html,
 body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   vertical-align: baseline;
   background: #ffffff;
   color: #646464;
+  font-family: 'Myfont';
 }
 h1,
 h2,
@@ -160,8 +133,8 @@ h5,
 h6 {
   line-height: 1.4;
   font-weight: 600;
-  font-family: 'Raleway', sans-serif;
   margin: 0 0 10px 0;
+  font-family: 'Myfont';
 }
 h1 {
   font-size: 60px;
@@ -291,9 +264,9 @@ ul {
 1.4 Button styles
 /*----------------------------------------*/
 .btn-read-more {
-  background: #727273;
+  background: #b11e22;
   padding: 14px 30px;
-  border: 2px solid #727272;
+  border: 2px solid #b11e22;
   text-transform: uppercase;
   color: white;
   font-weight: 600;
@@ -308,7 +281,7 @@ ul {
 }
 .btn-read-more:hover {
   color: #ffffff;
-  background: #727270;
+  background:#b11e22;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -316,13 +289,11 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .btn-read-more-fill {
-  background: #727273
-  ;
+  background-color: transparent;
   padding: 14px 30px;
-  border: 2px solid#727273
-  ;
+  border: 2px solid#b11e22;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #b11e22;
   font-weight: 600;
   display: inline-block;
   -webkit-transition: all 0.3s ease-in-out;
@@ -335,8 +306,8 @@ ul {
   padding-left: 10px;
 }
 .btn-read-more-fill:hover {
-  color: #222222;
-  background: transparent;
+  color: white;
+  background: #b11e22;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -468,7 +439,7 @@ ul {
 .btn-download {
   background: transparent;
   padding: 12px 30px;
-  border: 2px solid#26466B;
+  border: 2px solid #b11e22;
   text-transform: capitalize;
   color: #000000;
   -webkit-transition: all 0.3s ease-in-out;
@@ -485,7 +456,7 @@ ul {
 }
 .btn-download:hover {
   color: #ffffff;
-  background: #26466B;
+  background: #b11e22;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -538,7 +509,7 @@ ul {
   content: "";
   height: 1px;
   width: 80px;
-  background: #b0b0b0;
+  background: #b11e22;
   bottom: 7px;
   left: 0;
   position: absolute;
@@ -547,20 +518,20 @@ ul {
   content: "";
   height: 1px;
   width: 80px;
-  background: #b0b0b0;
+  background: #b11e22;
   bottom: 10px;
   left: 10px;
   position: absolute;
 }
 .section-title-area .title-bottom-icon i {
-  color: #727273;
+  color: #b11e22;
   font-size: 16px;
 }
 .section-title-area .title-bottom-icon .title-bottom-icon-right:after {
   content: "";
   height: 1px;
   width: 80px;
-  background: #b0b0b0;
+  background: #b11e22;
   bottom: 10px;
   right: 0;
   position: absolute;
@@ -569,7 +540,7 @@ ul {
   content: "";
   height: 1px;
   width: 80px;
-  background: #b0b0b0;
+  background: #b11e22;
   bottom: 7px;
   right: 10px;
   position: absolute;
@@ -622,7 +593,7 @@ ul {
   content: "";
   height: 3px;
   width: 50px;
-  background: #727273;
+  background: #b11e22;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -708,7 +679,7 @@ ul {
 .sidebar-title:after {
   content: "";
   position: absolute;
-  background: #727272;
+  background: #b11e22;
   height: 3px;
   width: 50px;
   bottom: 0;
@@ -753,7 +724,7 @@ ul {
 .header-bennar-area .header-bennar-right ul li {
   display: inline-block;
   color: #bbbbbb;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Myfont';
   font-weight: 600;
 }
 .header-bennar-area .header-bennar-right ul li a {
@@ -823,9 +794,10 @@ ul {
 .mypagination li a {
   width: 42px;
   font-size: 16px;
-  color: #ffffff;
+  color: black;
   height: 40px;
-  background: #26466B;
+  background: transparent;
+  border: 1px solid #b11e22;
   display: block;
   line-height: 40px;
   text-align: center;
@@ -836,7 +808,8 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .mypagination li a:hover {
-  background: #26466B;
+  color:white;
+  background: #b11e22;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -875,7 +848,7 @@ ul {
 1.11 ScrollUp styles
 --------------------------------------*/
 #scrollUp {
-  background-color:#727273;
+  background-color:#b11e22;
   opacity:0.5;
   bottom: 100px;
   color: #ffffff !important;
@@ -920,6 +893,7 @@ ul {
 --------------------------------------*/
 .header-top-area {
   padding: 8px 0;
+  padding-top: 16px;
 }
 .header-top-area .header-top-left ul li {
   margin-right: 30px;
@@ -996,7 +970,7 @@ ul {
   transform-origin: 0 0 0;
   width: 180px;
   z-index: 99999;
-  background: #26466B ;
+  background: #1B252F;
   padding: 0;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1273,7 +1247,7 @@ ul {
 2.2 Header 1 Area styles 
 ---------------------------------------*/
 .header-style1-area .header-top-area {
-  background: #26466B;
+  background: #1B252F;
 }
 
 .header-top-area {
@@ -1321,6 +1295,7 @@ ul {
 ---------------------------------------*/
 .header-style4-area {
   position: relative;
+  z-index:200;
 }
 .header-style4-area .header-top-area {
   padding-top: 30px;
@@ -1337,7 +1312,7 @@ ul {
   color: #8b8b8b;
 }
 .header-style4-area .main-header-area {
-  background-color: #26466B;
+  background-color: #1B252F;
 }
 .header-style4-area .main-header-area .logo-area {
   display: none;
@@ -1354,28 +1329,33 @@ ul {
 .header-style4-area .main-header-area .my-search-style {
   margin: 15px 20px 0 0;
   width: 80%;
-  float: left;
+  display: flex;
+  /* float: left; */
 }
 .header-style4-area .main-header-area .my-search-style .form-control {
-  color: #ffffff;
+  color: #8f8d8d;
   border-radius: 30px 0 0 30px;
   border: none !important;
-  background: #3b3b3b !important;
+  background: #ffffff !important;
 }
 .header-style4-area .main-header-area .my-search-style .form-control:focus {
   box-shadow: none;
 }
 .header-style4-area .main-header-area .my-search-style .input-group-addon {
-  background: #3b3b3b !important;
+  background: #ffffff !important;
   border: none !important;
   border-radius: 0 30px 30px 0;
+
+  
+    
+
 }
 .header-style4-area .main-header-area .my-search-style .input-group-addon button {
   border: 0;
   background: transparent;
 }
 .header-style4-area .main-header-area .my-search-style .input-group-addon button i {
-  color: white;
+  color: #A69999;
 }
 .header-style4-area .main-header-area .cart-area > a > span {
   background: #ffffff;
@@ -1442,7 +1422,7 @@ ul {
   top: 66px;
 }
 .header-style4-area .stick {
-  background: #26466B;
+  background: #1B252F;
 }
 .header-style4-area .stick .my-search-style {
   margin: 15px 20px 0 0;
@@ -2233,7 +2213,7 @@ ul {
 }
 .page-services-1-top-area .services-1-top-inner ul li a {
   font-weight: 600;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Myfont';
   color: #000000;
   padding: 10px 0 10px 10px;
   border-radius: 0;
@@ -2495,7 +2475,7 @@ ul {
 }
 
 .slider-4 .overlay{
-  opacity: 0.3;
+  opacity: 0.1;
   z-index: -1;
  
 }
@@ -2752,7 +2732,7 @@ ul {
   position: relative;
 }
 .about-4-area .about-4-left .about-4-tab-area ul li a {
-  border: 1px solid #d5d5d5;
+  border: 1px solid #b11e22;
   color: #222222;
   font-weight: 600;
   text-align: center;
@@ -2767,8 +2747,8 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .about-4-area .about-4-left .about-4-tab-area ul li a:hover {
-  background: #727273;;
-  border: 1px solid #727273;;
+  background: #b11e22;
+  border: 1px solid #b11e22;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -2793,7 +2773,7 @@ ul {
   height: 0;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
-  border-top: 7px solid #727273;;
+  border-top: 7px solid #b11e22;
   bottom: -7px;
   content: "";
   left: 0;
@@ -2812,8 +2792,8 @@ ul {
   opacity: 1;
 }
 .about-4-area .about-4-left .about-4-tab-area ul .active a {
-  background: #727273;;
-  border: 1px solid #727273;;
+  background: #b11e22;
+  border: 1px solid #b11e22;
   color: #ffffff;
 }
 .about-4-area .about-4-left .about-4-tab-area ul .active span:after {
@@ -2859,13 +2839,14 @@ ul {
   position: absolute;
   left: 0;
   bottom: 0;
-  background: #ffbe00;
+  background: #b11e22;
 }
 .page-about-us-area .page-about-us-left p {
   margin-bottom: 25px;
 }
 .page-about-us-area .page-about-us-right img {
   width: 100%;
+  height: 80vh;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -3908,12 +3889,12 @@ ul {
 .page-news-area .inner-page-news-area .inner-page-news-box .inner-news-box-top .news-published .news-date {
   padding: 12px 0 7px 0;
   line-height: 18px;
-  background: #26466B;
+  background: #1B252F;
   font-size: 16px;
   font-weight: 600;
 }
 .page-news-area .inner-page-news-area .inner-page-news-box .inner-news-box-top .news-published .news-year {
-  background: #222222;
+  background: #1B252F;
   padding: 5px 0;
 }
 .page-news-area .inner-page-news-area .inner-page-news-box .inner-news-box-top img {
@@ -3968,7 +3949,7 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .page-news-area .inner-page-news-area .inner-page-news-box .inner-news-box-bottom h4:hover a {
-  color: #ffbe00;
+  color: #1B252F;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -4264,7 +4245,7 @@ ul {
 }
 .projects-1-featured-area .isotop-classes-tab a {
   text-align: left;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Myfont';
   width: 100%;
   border: 1px solid #e0e0e0;
   display: inline-block;
@@ -4395,15 +4376,15 @@ ul {
 }
 .projects-2-featured-area .isotop-classes-tab a {
   display: inline-block;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #b11e22;
   background: #ffffff;
   padding: 10px 30px;
   color: #222222;
   margin: 5px;
 }
 .projects-2-featured-area .isotop-classes-tab a:hover {
-  border: 1px solid #989898;
-  background: #989898;
+  border: 1px solid #b11e22;
+  background: #b11e22;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -4412,7 +4393,7 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .projects-2-featured-area .isotop-classes-tab .current {
-  background:#727273;
+  background:#b11e22;
   color: #ffffff;
 }
 .projects-2-featured-area .featuredContainer > div {
@@ -5259,8 +5240,8 @@ ul {
   text-align: center;
 }
 .brand-area .brand .brand-box {
-  border: 2px solid #989898;
-  background: #989898;
+  border: 2px solid #b11e22;
+  background:#b11e22;
   padding-top: 20px;
   height: 90px;
   margin: 0 auto;
@@ -5269,9 +5250,9 @@ ul {
   display: inline-block;
 }
 .brand-area .brand .brand-box:hover {
-  background: #727273
+  background: #1B252F
   ;
-  border: 2px solid #727273
+  border: 2px solid #1B252F
   ;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -5286,13 +5267,13 @@ ul {
   left: -45px;
   position: absolute;
   border-radius: 0;
-  background: #727273
+  background: #b11e22
   ;
   padding: 5px 12px;
   opacity: 1;
   margin: 2px;
-  top: 30px;
-  border: 1px solid #727273
+  top: 40%;
+  border: 1px solid #b11e22
   ;
 }
 @media (min-width: 480px) and (max-width: 768px) {
@@ -5316,21 +5297,20 @@ ul {
   color: #ffffff;
 }
 .brand-area .brand .owl-controls .owl-prev:hover {
-  background: transparent;
+  background: #b11e22;
   transition: 0.7s;
   border: 1px solid #fff4d2;
 }
 .brand-area .brand .owl-controls .owl-next {
-  border: 1px solid #727273
-  ;
-  top: 30px;
+  border: 1px solid #b11e22;
+  top: 40%;
   right: -45px;
   position: absolute;
   margin: 2px;
   opacity: 1;
   border-radius: 0;
-  background: #727273
-  ;
+  background: #b11e22;
+  
   padding: 5px 12px;
 }
 @media (min-width: 480px) and (max-width: 768px) {
@@ -5354,9 +5334,9 @@ ul {
   font-size: 18px;
 }
 .brand-area .brand .owl-controls .owl-next:hover {
-  background: transparent;
+  background: #b11e22;
   transition: 0.7s;
-  border: 1px solid #fff4d2;
+  border: 1px solid #b11e22;
 }
 @media only screen and (max-width: 479px) {
   .brand-area:hover .brand .owl-controls .owl-prev {
@@ -5614,10 +5594,11 @@ ul {
   margin-bottom: 3px;
 }
 .sidebar .popular-tags-box ul li a {
-  color: #6b6b6b;
+  color: black;
   font-weight: 600;
   padding: 5px 17px;
-  background: #efefef;
+  border: 1px solid #b11e22;
+  background-color: transparent;
   display: block;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -5626,7 +5607,7 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .sidebar .popular-tags-box ul li a:hover {
-  background: #9e9e9c;
+  background: #b11e22;
   color: #ffffff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -5707,7 +5688,7 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .sidebar .best-seller-box li .media .media-body h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Myfont';
   font-size: 14px;
 }
 .sidebar .best-seller-box li .media .media-body h4 a {
@@ -5751,7 +5732,7 @@ ul {
 17. Footer Area styles 
 ========================================*/
 .footer-area-top {
-  background: #26466B;
+  background: #1B252F;
 }
 .footer-area-top p {
   color: #b0b0b0;
@@ -5916,4 +5897,36 @@ ul {
   width:180px;
  
 }
+.input-group-addon button i{
+  margin-left: -12px;margin-top: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .title-compress .logo-area {
+    display: none !important;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+  border: 1px solid #ddd;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.box2{
+  height: 206px !important;
+  background-color: transparent !important;
+}
+
+
+
+
 
