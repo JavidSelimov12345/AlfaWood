@@ -88,7 +88,7 @@ button {
 }
 h1, h2, h3, h4, h5, h6 {
     color: #000000;
-    font-weight: 700;
+    font-weight: 400;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -259,7 +259,7 @@ li{
     color: #ffffff;
     font-size: 32px;
     line-height: 40px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
 }
 .sec-title .big-title.black-clr h1{
@@ -362,7 +362,7 @@ li{
     display: inline-block;
     width: 60px;
     height: 50px;
-    background: #798795;
+    background: red;
     border: 0px solid #f9f6f0;
     border-radius: 5px;
     color: #ffffff;
@@ -1080,11 +1080,11 @@ select:focus {
 .social-links-style1 li a i{
     position: relative;
     display: block;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgb(255, 0, 0);
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    color: #798795;
+    color: white;
     font-size: 14px;
     font-weight: 400;
     line-height: 40px;
@@ -1497,7 +1497,7 @@ select:focus {
     display: block;    
 }
 .welcome-text h6{
-    color: #798795;
+    color: red;
     font-size: 14px;
     line-height: 24px;
     font-weight: 500;
@@ -1537,7 +1537,7 @@ select:focus {
     margin: 0 10px;
 }
 .header-social-links .social-links-style1 li a {
-    color: #798795;
+    color: red;
     font-size: 18px;
     transition: all 200ms linear;
     transition-delay: 0.1s;
@@ -5194,7 +5194,7 @@ select:focus {
     color: #ffffff;
     font-size: 90px;
     line-height: 80px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: capitalize;
 }
 
