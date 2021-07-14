@@ -1066,7 +1066,7 @@ select:focus {
 .social-links-style1 {
     position: relative;
     display: block;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .social-links-style1 li{
     position: relative;
@@ -12496,3 +12496,23 @@ select:focus {
     color: #fff;
     border-color: #43c3ea;
 }
+
+.lang{
+    
+    position: absolute;
+    z-index: 999999;
+    left:-10px;
+    top:39px;
+    border:1px solid rgb(177, 175, 175);
+    text-align: center;
+    background-color: #F6F7F9;
+    padding: 3px !important;
+    display: block;
+    
+    }
+.lang li {
+        padding: 0;
+        padding-left: 0 !important;
+        cursor: pointer;
+    }
+    

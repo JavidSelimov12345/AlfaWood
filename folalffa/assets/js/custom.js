@@ -989,6 +989,23 @@ jQuery(window).on('load', function () {
 
 
 });
+var langButton =document.getElementById('langp')
+var lang =document.getElementById('langDrop')
+langButton.addEventListener('click',function(){
+
+    console.log('hhhhh')
+    if (lang.style.display=='none'){
+        lang.style.display="block"
+    }
+    else{
+        lang.style.display="none"
+    }
+     
+})
+
+setInterval(function(){
+    lang.style.display="none"
+},7000)
 
 let images = document.querySelectorAll('.single-img-box')
 let image = document.querySelector('.single-service-big-image').querySelector('img')
@@ -1000,6 +1017,20 @@ images.forEach(element => {
     })
 
 });
+
+
+
+const mediaQuery = window.matchMedia('(max-width: 700px)')
+
+if (mediaQuery.matches) {
+
+document.querySelector('.media').classList.add('portfolio-carousel-c')
+document.querySelector('.medias').classList.add('blog-carousel-c')
+}
+else{
+    document.querySelector('.media').classList.add('portfolio-carousel')
+    document.querySelector('.medias').classList.add('blog-carousel')
+}
 
 
 
