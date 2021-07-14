@@ -3859,7 +3859,7 @@ select:focus {
     display: block;    
 }
 .single-footer-widget .our-company-info .text p{
-    color: #798795;
+    color: white;
     font-size: 16px;
     line-height: 32px;
     font-weight: 300;
@@ -3892,7 +3892,7 @@ select:focus {
     position: relative;
     display: block;
     padding-left: 10px;
-    color: #798795;
+    color: white;
     font-size: 16px;
     line-height: 32px;
     font-weight: 300;
@@ -12501,7 +12501,7 @@ select:focus {
     
     position: absolute;
     z-index: 999999;
-    left:-10px;
+    left:0px;
     top:39px;
     border:1px solid rgb(177, 175, 175);
     text-align: center;

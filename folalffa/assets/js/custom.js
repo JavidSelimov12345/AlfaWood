@@ -991,9 +991,12 @@ jQuery(window).on('load', function () {
 });
 var langButton =document.getElementById('langp')
 var lang =document.getElementById('langDrop')
+var langelement = document.getElementById('langelement')
+
+// eng=document.getElementById('Eng')
 langButton.addEventListener('click',function(){
 
-    console.log('hhhhh')
+    // console.log('hhhhh')
     if (lang.style.display=='none'){
         lang.style.display="block"
     }
@@ -1001,6 +1004,12 @@ langButton.addEventListener('click',function(){
         lang.style.display="none"
     }
      
+})
+document.getElementById('Aze').addEventListener('click',(e)=>{
+    langelement.innerText=e.target.innerText
+})
+document.getElementById('Eng').addEventListener('click',(e)=>{
+    langelement.innerText=e.target.innerText
 })
 
 setInterval(function(){
