@@ -12501,13 +12501,16 @@ select:focus {
     
     position: absolute;
     z-index: 999999;
-    left:0px;
+    left:-15px;
     top:39px;
     border:1px solid rgb(177, 175, 175);
     text-align: center;
-    background-color: #F6F7F9;
-    padding: 3px !important;
+    background-color: #030e27;
+    padding: 20px !important;
     display: block;
+    color:red;
+    font-weight: 500;
+    font-weight: bold;
     
     }
 .lang li {
