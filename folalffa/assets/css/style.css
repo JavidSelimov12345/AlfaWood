@@ -12506,7 +12506,7 @@ select:focus {
     border:1px solid rgb(177, 175, 175);
     text-align: center;
     background-color: #030e27;
-    padding: 20px !important;
+    padding: 15px 20px !important;
     display: block;
     color:red;
     font-weight: 500;

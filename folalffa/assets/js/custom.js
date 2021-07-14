@@ -1011,6 +1011,9 @@ document.getElementById('Aze').addEventListener('click',(e)=>{
 document.getElementById('Eng').addEventListener('click',(e)=>{
     langelement.innerText=e.target.innerText
 })
+document.getElementById('Rus').addEventListener('click',(e)=>{
+    langelement.innerText=e.target.innerText
+})
 
 setInterval(function(){
     lang.style.display="none"
